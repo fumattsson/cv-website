@@ -1,0 +1,11 @@
+:root {
+    /* Colors */
+    --color-text: #181717;
+    --color-primary: #576cbc;
+    --color-secondary: #19376d;
+    --color-dark: #0b2447;
+    --color-bg: #F3F3F3;
+
+    /* Fonts */
+    --font-lora: "Lora";
+}

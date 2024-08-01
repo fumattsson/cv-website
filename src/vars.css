@@ -4,7 +4,8 @@
     --color-primary: #576cbc;
     --color-secondary: #19376d;
     --color-dark: #0b2447;
-    --color-bg: #F3F3F3;
+    --color-bg: #ffffff80;
+    --color-accent-offwhite: #F3F3F3;
 
     /* Fonts */
     --font-lora: "Lora";

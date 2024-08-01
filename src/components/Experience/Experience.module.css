@@ -2,8 +2,8 @@
 
 .container {
     position: relative;
+    border-radius: 0px 0px 15px 15px;
     padding: 73px 73px 10% 10%;
-    margin-top: 129px;
     z-index: 1;
 }
 
@@ -21,17 +21,17 @@
     align-items: center;
 }
 
-.aboutImage {
+.experienceImage {
     width: 35%;
 }
 
-.aboutItems {
+.experienceItems {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-.aboutItem {
+.experienceItem {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -41,13 +41,13 @@
     gap: 20px;
 }
 
-.aboutItem h3 {
+.experienceItem h3 {
     font-size: 24px;
     font-weight: 600;
     font-family: var(--font-lora)
 }
 
-.aboutItem p {
+.experienceItem p {
     font-size: 22px;
     font-family: var(--font-lora)
 }
@@ -63,15 +63,15 @@
         flex-direction: column;
     }
 
-    .aboutImage {
+    .experienceImage {
         display: none;
     }
 
-    .aboutItems {
+    .experienceItems {
         margin-top: 29px;
     }
 
-    .aboutItem {
+    .experienceItem {
         padding-left: 0;
         padding-right: 0;
     }
@@ -87,11 +87,11 @@
             flex-direction: column;
         }
 
-        .aboutImage {
+        .experienceImage {
             display: none;
         }
 
-        .aboutItems {
+        .experienceItems {
             margin-top: 29px;
         }
 

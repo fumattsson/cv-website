@@ -17,6 +17,7 @@ export const Hero = () => {
     return <section className={styles.container}>
         <div className={styles.content}>
             <h1 className={styles.title}>Welcome! I’m Frida Mattsson</h1>
+            <img src={getImageUrl("hero/hero_image_2.png")} alt="hero image of me" className={styles.heroImgSmall} />
             <p className={styles.description}>A Software Engineer and MSc student in IT Project Management.</p>
             <div className={styles.buttonsContainer}>
                 <a href="mailto:frida_mattsson97@hotmail.com" className={styles.contactBtn}>Get in touch</a>

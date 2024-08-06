@@ -64,6 +64,19 @@
         flex-direction: column;
     }
 
+    .title {
+        font-size: 25px;
+        padding: 0;
+    }
+
+    .contactItem h3 {
+        font-size: 20px;
+    }
+    
+    .contactItem p {
+        font-size: 18px;
+    }
+
     .contactImage {
         display: none;
     }
@@ -72,23 +85,4 @@
         margin-top: 29px;
     }
 
-    @media screen and (max-width: 830px) {
-        .container {
-            background-color: transparent;
-            padding-left: 0;
-            padding-right: 0;
-        }
-
-        .content {
-            flex-direction: column;
-        }
-
-        .contactImage {
-            display: none;
-        }
-
-        .contactItems {
-            margin-top: 29px;
-        }
-    }
 }

@@ -50,6 +50,29 @@
 
 @media screen and (max-width: 830px) {
 
+    .content {
+        align-items: center;
+        text-align: center;
+    }
+
+    .heroImg {
+        display: none;
+    }
+
+    .title {
+        font-size: 38px;
+    }
+
+    .description {
+        font-size: 22px;
+    }
+
+    .heroImgSmall {
+        width: 70%;
+        z-index: 1;
+        margin-bottom: 30px;
+    }
+
     .buttonsContainer {
         flex-direction: column;
         display: flex;

@@ -65,6 +65,19 @@
         flex-direction: column;
     }
 
+    .title {
+        font-size: 25px;
+        padding: 0;
+    }
+
+    .experienceItem h3 {
+        font-size: 20px;
+    }
+    
+    .experienceItem p {
+        font-size: 18px;
+    }
+
     .experienceImage {
         display: none;
     }
@@ -78,28 +91,4 @@
         padding-right: 0;
     }
 
-    @media screen and (max-width: 830px) {
-        .container {
-            background-color: transparent;
-            padding-left: 0;
-            padding-right: 0;
-        }
-
-        .content {
-            flex-direction: column;
-        }
-
-        .experienceImage {
-            display: none;
-        }
-
-        .experienceItems {
-            margin-top: 29px;
-        }
-
-        .aboutItem {
-            padding-left: 0;
-            padding-right: 0;
-        }
-    }
 }

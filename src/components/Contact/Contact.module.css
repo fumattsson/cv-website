@@ -51,6 +51,17 @@
     font-family: var(--font-lora)
 }
 
+.email {
+    font-size: 22px;
+    font-family: var(--font-lora)  
+}
+
+.socialIcon {
+    width: 30px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
 @media screen and (max-width: 830px) {
     .container {
         background-color: transparent;
@@ -74,6 +85,10 @@
     }
     
     .contactItem p {
+        font-size: 18px;
+    }
+
+    .email {
         font-size: 18px;
     }
 

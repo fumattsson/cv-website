@@ -48,6 +48,15 @@
     flex-direction: row;
 }
 
+.heroImg {
+    width: 35%;
+    z-index: 1;
+}
+
+.heroImgSmall {
+    display: none;
+}
+
 @media screen and (max-width: 830px) {
 
     .content {
@@ -59,18 +68,19 @@
         display: none;
     }
 
+    .heroImgSmall {
+        display: block;
+        width: 70%;
+        z-index: 1;
+        margin-bottom: 30px;
+    }
+
     .title {
         font-size: 38px;
     }
 
     .description {
         font-size: 22px;
-    }
-
-    .heroImgSmall {
-        width: 70%;
-        z-index: 1;
-        margin-bottom: 30px;
     }
 
     .buttonsContainer {
@@ -81,9 +91,4 @@
     .contactBtn {
         margin-bottom: 10px;
     }
-}
-
-.heroImg {
-    width: 35%;
-    z-index: 1;
 }

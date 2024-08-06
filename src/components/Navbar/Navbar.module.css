@@ -68,6 +68,8 @@
         align-items: end;
         gap: 14px;
         padding: 20px 10px 20px 10px;
+        background-color: var(--color-bg);
+        z-index: 1;
     }
 
     .menuOpen {

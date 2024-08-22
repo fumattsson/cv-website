@@ -8,7 +8,7 @@
 }
 
 .title {
-    font-size: 35px;
+    font-size: var(--font-size-title);
     font-weight: 700;
     letter-spacing: 1.75px;
     text-transform: uppercase;
@@ -41,13 +41,13 @@
 }
 
 .contactItem h3 {
-    font-size: 24px;
+    font-size: var(--font-size-h3);
     font-weight: 600;
     font-family: var(--font-lora)
 }
 
 .contactItem p {
-    font-size: 22px;
+    font-size: var(--font-size-p);
     font-family: var(--font-lora)
 }
 
@@ -76,16 +76,16 @@
     }
 
     .title {
-        font-size: 25px;
+        font-size: var(--font-size-title-small);
         padding: 0;
     }
 
     .contactItem h3 {
-        font-size: 20px;
+        font-size: var(--font-size-h3-small);
     }
     
     .contactItem p {
-        font-size: 18px;
+        font-size: var(--font-size-p-small);
     }
 
     .email {

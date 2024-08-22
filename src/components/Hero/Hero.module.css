@@ -31,7 +31,7 @@
     margin-bottom: 52px;
 }
 
-.contactBtn {
+.cvBtn {
     text-decoration: none;
     color: var(--color-text);
     background-color: var(--color-bg);
@@ -40,12 +40,14 @@
     font-size: 20px;
     font-weight: 600;
     padding: 17px 26px;
-    margin-right: 20px;
+    margin-right: 60px;
     cursor: pointer;
 }
 
 .buttonsContainer {
     flex-direction: row;
+    display: flex;
+    align-items: center;
 }
 
 .heroImg {
@@ -57,11 +59,20 @@
     display: none;
 }
 
+.socialIcon {
+    width: 46px;
+    margin-right: 10px;
+}
+
 @media screen and (max-width: 830px) {
 
     .content {
         align-items: center;
         text-align: center;
+    }
+
+    .socialIcon {
+        margin-top: 20px;
     }
 
     .heroImg {
@@ -88,7 +99,8 @@
         display: flex;
         justify-content: space-between;
     }
-    .contactBtn {
+    .cvBtn {
         margin-bottom: 10px;
+        margin-right: 20px;
     }
 }

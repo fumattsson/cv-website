@@ -8,7 +8,7 @@
 }
 
 .title {
-    font-size: 35px;
+    font-size: var(--font-size-title);
     font-weight: 700;
     letter-spacing: 1.75px;
     text-transform: uppercase;
@@ -42,13 +42,13 @@
 }
 
 .experienceItem h3 {
-    font-size: 24px;
+    font-size: var(--font-size-h3);
     font-weight: 600;
     font-family: var(--font-lora)
 }
 
 .experienceItem p {
-    font-size: 22px;
+    font-size: var(--font-size-p);
     font-family: var(--font-lora)
 }
 
@@ -66,16 +66,16 @@
     }
 
     .title {
-        font-size: 25px;
+        font-size: var(--font-size-title-small);
         padding: 0;
     }
 
     .experienceItem h3 {
-        font-size: 20px;
+        font-size: var(--font-size-h3-small);
     }
     
     .experienceItem p {
-        font-size: 18px;
+        font-size: var(--font-size-p-small);
     }
 
     .experienceImage {

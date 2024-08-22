@@ -15,10 +15,9 @@ export const About = () => {
             <ul className={styles.aboutItems}>
                 <li className={styles.aboutItem}>
                     <div className={styles.aboutItemText}>
-                        <h3>Who am I?</h3>
                         <p>I was born and raised on a small island called Åland in Finland, where fishing and sauna are two of the most popular activities. I left the island at 19 and have since lived in five countries across three continents. Discovering new cultures has become a huge interest, and one of my favorite ways of doing so is through food. Cooking is also a way for me to connect with my home whenever I can't go back.</p>
                         <br />
-                        <p>When I'm not in the kitchen experimenting with new recipes, you might find me at the gym, hiking, skiing, grabbing coffee with a friend, or at a festival. And like every person from the Nordics, you'll find me following the sun like a sunflower.</p>
+                        <p>My studies in ICT at KTH in Stockholm led me to start a career in Software Engineering - a job that I really enjoyed. The job also helped spark my interest in project management, which led me to go back to school for a master's degree in IT Project Management. Now that the program is coming to an end, I'm growing increasingly excited to continute my career. I would be most excited about roles in the intersection between business and technology, but also frontend engineering or mobile development roles.</p>
                     </div>
                 </li>
             </ul>

@@ -19,8 +19,11 @@ export const Contact = () => {
         <a href="https://www.linkedin.com/in/fridamattsson/" target="_blank" rel="noopener noreferrer">
             <img src={getImageUrl("contact/linkedin.png")} alt="linkedin logo" className={styles.socialIcon} />
         </a>
-        <a href="https://wa.me/86695306" target="_blank" rel="noopener noreferrer">
+        <a href="https://wa.me/6586695306" target="_blank" rel="noopener noreferrer">
             <img src={getImageUrl("contact/whatsapp.png")} alt="whatsapp logo" className={styles.socialIcon} />
+        </a>
+        <a href="https://github.com/fumattsson/" target="_blank" rel="noopener noreferrer">
+            <img src={getImageUrl("contact/github.png")} alt="github logo" className={styles.socialIcon} />
         </a>
     </section>;
 }

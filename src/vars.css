@@ -9,4 +9,14 @@
 
     /* Fonts */
     --font-lora: "Lora";
+
+    /* Font sizes */
+    --font-size-title: 34px;
+    --font-size-p: 20px;
+    --font-size-h3: 22px;
+
+    --font-size-title-small: 24px;
+    --font-size-p-small: 18px;
+    --font-size-h3-small: 20px;
+
 }

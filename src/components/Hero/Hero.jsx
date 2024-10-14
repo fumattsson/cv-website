@@ -16,22 +16,22 @@ export const Hero = () => {
 
     return <section className={styles.container}>
         <div className={styles.content}>
-            <h1 className={styles.title}>Welcome! I’m Frida Mattsson</h1>
+            <h1 className={styles.title}>Welcome! My name is Frida</h1>
             <img src={getImageUrl("hero/hero_image_2.png")} alt="hero image of me" className={styles.heroImgSmall} />
-            <p className={styles.description}>A Software Engineer and MSc student in IT Project Management.</p>
+            <p className={styles.description}>I'm a Software Engineer and MSc student in IT Project Management.</p>
             <div className={styles.buttonsContainer}>
-                <button onClick={onButtonClick} className={styles.cvBtn}>Download CV</button>
-                <div className={styles.socialIconsContainer}>
-                    <a href="https://www.linkedin.com/in/fridamattsson/" target="_blank" rel="noopener noreferrer">
-                        <img src={getImageUrl("contact/linkedin.png")} alt="linkedin logo" className={styles.socialIcon} />
-                    </a>
+            <div className={styles.socialIconsContainer}>
                     <a href="https://wa.me/6586695306" target="_blank" rel="noopener noreferrer">
                         <img src={getImageUrl("contact/whatsapp.png")} alt="whatsapp logo" className={styles.socialIcon} />
+                    </a>
+                    <a href="https://www.linkedin.com/in/fridamattsson/" target="_blank" rel="noopener noreferrer">
+                        <img src={getImageUrl("contact/linkedin.png")} alt="linkedin logo" className={styles.socialIcon} />
                     </a>
                     <a href="https://github.com/fumattsson/" target="_blank" rel="noopener noreferrer">
                         <img src={getImageUrl("contact/github.png")} alt="github logo" className={styles.socialIcon} />
                     </a>
                 </div>
+                <button onClick={onButtonClick} className={styles.cvBtn}>Download CV</button>
             </div>
         </div>
         <img src={getImageUrl("hero/hero_image_2.png")} alt="hero image of me" className={styles.heroImg} />

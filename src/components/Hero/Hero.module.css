@@ -14,9 +14,10 @@
 .content {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     color: var(--color-text);
     z-index: 1;
+    width: 460px;
 }
 
 .title {
@@ -40,12 +41,12 @@
     font-size: 20px;
     font-weight: 600;
     padding: 17px 26px;
-    margin-right: 60px;
     cursor: pointer;
+    margin-top: 10px;
 }
 
 .buttonsContainer {
-    flex-direction: row;
+    flex-direction: column;
     display: flex;
     align-items: center;
 }
@@ -60,8 +61,8 @@
 }
 
 .socialIcon {
-    width: 46px;
-    margin-right: 10px;
+    width: 24px;
+    margin: 8px;
 }
 
 @media screen and (max-width: 830px) {
@@ -69,10 +70,6 @@
     .content {
         align-items: center;
         text-align: center;
-    }
-
-    .socialIcon {
-        margin-top: 20px;
     }
 
     .heroImg {
@@ -92,15 +89,5 @@
 
     .description {
         font-size: 22px;
-    }
-
-    .buttonsContainer {
-        flex-direction: column;
-        display: flex;
-        justify-content: space-between;
-    }
-    .cvBtn {
-        margin-bottom: 10px;
-        margin-right: 20px;
     }
 }

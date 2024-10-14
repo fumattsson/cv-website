@@ -53,13 +53,14 @@
 
 .email {
     font-size: 22px;
-    font-family: var(--font-lora)  
+    font-family: var(--font-lora);
+    color: black;  
 }
 
 .socialIcon {
-    width: 30px;
+    width: 24px;
     margin-top: 10px;
-    margin-right: 10px;
+    margin-right: 16px;
 }
 
 @media screen and (max-width: 830px) {

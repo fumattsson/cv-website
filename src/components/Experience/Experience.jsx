@@ -26,7 +26,7 @@ export const Experience = () => {
                     <img src={getImageUrl("about/frontend.png")} alt="frontend development" />
                     <div className={styles.experienceItemText}>
                         <h3>Project Management</h3>
-                        <p>My Master's degree has provided me with a comprehensive understanding up PM practices and SDLC concepts</p>
+                        <p>My Master's degree has provided me with a comprehensive understanding of PM practices and SDLC concepts</p>
                     </div>
                 </li>
             </ul>

@@ -11,14 +11,14 @@ export const Experience = () => {
                 <li className={styles.experienceItem}>
                     <img src={getImageUrl("about/mobile.png")} alt="mobile phone" />
                     <div className={styles.experienceItemText}>
-                        <h3>Software Engineer</h3>
+                        <h3>Software Engineering</h3>
                         <p>I'm experienced in a range of languages and frameworks, including Flutter, React and .NET</p>
                     </div>
                 </li>
                 <li className={styles.experienceItem}>
                     <img src={getImageUrl("about/communication.png")} alt="people talking" />
                     <div className={styles.experienceItemText}>
-                        <h3>Communicator</h3>
+                        <h3>Communication</h3>
                         <p>I'm skilled in effective cross-functional communication between developers, product owners and other stakeholders</p>
                     </div>
                 </li>

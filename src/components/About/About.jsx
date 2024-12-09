@@ -17,7 +17,7 @@ export const About = () => {
                     <div className={styles.aboutItemText}>
                         <p>I was born and raised on a small island called Åland in Finland, where fishing and sauna are two of the most popular activities. I left the island at 19 and have since lived in five countries across three continents. Discovering new cultures has become a huge interest, and some of my favorite ways of doing so is through nature and food. Cooking is also a way for me to connect with my home whenever I can't go back.</p>
                         <br />
-                        <p>My studies in ICT at KTH in Stockholm led me to start a career in Software Engineering - a job that I really enjoyed. The job also helped spark my interest in project management, which led me to go back to school for a master's degree in IT Project Management. Now that the program is coming to an end, I'm growing increasingly excited to continute my career. I would be most excited about roles in the intersection between business and technology, frontend engineering or mobile development roles.</p>
+                        <p>My studies in ICT at KTH in Stockholm led me to start a career in Software Engineering - a job that I really enjoyed. The job also helped spark my interest in project management, which led me to go back to school for a master's degree in IT Project Management. Now that the program is coming to an end, I'm growing increasingly excited to continute my career. I would be most excited about roles in the intersection between business and technology, frontend engineering or mobile development.</p>
                     </div>
                 </li>
             </ul>
